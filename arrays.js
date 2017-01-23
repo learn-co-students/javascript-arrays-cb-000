@@ -23,7 +23,7 @@ function destructivelyAddElementToEndOfArray(array, element) {
 }
 
 function removeElementFromBeginningOfArray(array) {
-  return array.slice(1);
+  return array.pop();
 }
 
 function removeElementFromEndOfArray(array, element) {
