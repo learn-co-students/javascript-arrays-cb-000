@@ -15,12 +15,11 @@ function addElementToEndOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
-  return 0;
+  return array.unshift(element);
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  array = array.push(element);
-  return array;
+  return array.push(element);
 }
 
 function removeElementFromBeginningOfArray(array) {
