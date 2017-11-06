@@ -43,3 +43,8 @@ function removeElementFromEndOfArray(array) {
   newArr = array.slice(0, array.length - 1);
   return newArr
 }
+
+// function removeElementsFromMiddleOfArray(array) {
+//   items = [1,2,3,4,5,6,7,8]
+//   [...items.slice(0,2), ...items.slice(7)] //Removes all elments between 2-7 excluding 2 and 7
+// }
