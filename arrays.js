@@ -76,3 +76,11 @@ function destructivelyRemoveElementFromBeginningOfArray(array) {
 function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
 }
+
+
+// arrays destructivelyRemoveElementFromEndOfArray(array) returns the array with the last element removed
+// arrays destructivelyRemoveElementFromEndOfArray(array) alters the original array
+function destructivelyRemoveElementFromEndOfArray(array) {
+  array.pop();
+  return array;
+}
