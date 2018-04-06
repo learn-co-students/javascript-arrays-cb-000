@@ -77,10 +77,16 @@ function removeElementFromBeginningOfArray(array) {
   return array.slice(1);
 }
 
-
 // arrays destructivelyRemoveElementFromEndOfArray(array) returns the array with the last element removed
 // arrays destructivelyRemoveElementFromEndOfArray(array) alters the original array
 function destructivelyRemoveElementFromEndOfArray(array) {
   array.pop();
   return array;
+}
+
+// arrays removeElementFromEndOfArray(array) removes the last element from the array
+// arrays removeElementFromEndOfArray(array) does not alter the original array
+// slice from index 0 (first element in the array) to the last element in the array (array.length - 1)
+function removeElementFromEndOfArray(array) {
+  return array.slice(0, array.length - 1);
 }
