@@ -7,18 +7,13 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "mocha -b -R mocha-multi --reporter-options nyan=-,json=.results.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/learn-co-curriculum/javascript-arrays.git"
   },
-  "keywords": [
-    "learn",
-    "flatiron",
-    "javascript",
-    "arrays"
-  ],
+  "keywords": ["learn", "flatiron", "javascript", "arrays"],
   "license": "SEE LICENSE IN LICENSE.md",
   "bugs": {
     "url": "https://github.com/learn-co-curriculum/javascript-arrays/issues"
